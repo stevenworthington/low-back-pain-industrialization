@@ -1,6 +1,6 @@
 {
   "title": "Analysis code for: Industrialization and low back pain among two traditionally small-scale subsistence societies",
-  "description": "R code for the causal analysis of low back pain prevalence and risk factors across four populations (Turkana, Orang Asli, Tsimane, Raramuri/Tarahumara). Includes descriptive prevalence estimation using GAMs, continuous exposure effect estimation using entropy balancing weights, and visualization scripts.",
+  "description": "R code for the causal analysis of low back pain prevalence and risk factors across four populations (Turkana, Orang Asli, Tsimane, Raramuri/Tarahumara). Includes descriptive prevalence estimation using GAMs, continuous exposure effect estimation via G-computation with optimization-based and energy balancing weights, producing average exposure-response functions (AERFs) and average marginal effect functions (AMEFs). Also includes visualization scripts.",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
