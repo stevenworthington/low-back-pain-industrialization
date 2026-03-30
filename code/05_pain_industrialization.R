@@ -27,8 +27,8 @@
 #     which fits separate weighted models per group and uses
 #     clarify::sim + sim_adrf for difference inference with uncertainty
 #
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R
 #   - cont_treatment_effect(): single-group continuous exposure effect
 #   - cont_treatment_effect_diff(): between-group difference in ADRF/AMEF
 #
@@ -43,7 +43,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
   

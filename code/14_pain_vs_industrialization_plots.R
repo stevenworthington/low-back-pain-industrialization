@@ -19,7 +19,7 @@
 #   - Saves the difference panel to figures/pain_vs_index_plot_diff.pdf
 #
 # Dependencies:
-#   0b_setup.R (packages, helpers, data); saved model objects in models/
+#   00b_setup.R (packages, helpers, data); saved model objects in models/
 #   Packages: tidyverse, patchwork, vctrs, ggplot2
 #   Helper functions: plot_AERF_AMEF()
 #
@@ -38,7 +38,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 

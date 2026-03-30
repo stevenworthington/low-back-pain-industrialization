@@ -25,8 +25,8 @@ Scripts are numbered in order of execution:
 
 | Script | Description |
 |--------|-------------|
-| `0a_functions.R` | Shared function library (themes, descriptive helpers, causal inference, prevalence estimation) |
-| `0b_setup.R` | Environment setup: loads packages, sources functions, loads and prepares datasets |
+| `00a_functions.R` | Shared function library (themes, descriptive helpers, causal inference, prevalence estimation) |
+| `00b_setup.R` | Environment setup: loads packages, sources functions, loads and prepares datasets |
 | `01_descriptive_summary.R` | Basic descriptive statistics across all four populations |
 | `02_descriptive_orangasli_turkana.R` | GAM-based age-adjusted prevalence for Turkana and Orang Asli |
 | `03_descriptive_tsimane.R` | GAM-based age-adjusted prevalence for Tsimane |
@@ -42,7 +42,7 @@ Scripts are numbered in order of execution:
 | `13_pain_vs_risk_plots.R` | Visualization: LBP vs risk factors |
 | `14_pain_vs_industrialization_plots.R` | Visualization: LBP vs industrialization |
 
-Each script sources `0b_setup.R` at the top, which handles all package loading and data preparation. Output figures are saved to `figures/` and model objects to `models/` (both created automatically).
+Each script sources `00b_setup.R` at the top, which handles all package loading and data preparation. Output figures are saved to `figures/` and model objects to `models/` (both created automatically).
 
 ## Statistical methods
 

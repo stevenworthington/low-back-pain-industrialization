@@ -27,8 +27,8 @@
 #     marginaleffects functions.
 #   - Sex PRs and differences via marginaleffects (avg_comparisons).
 #
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R
 #
 ################################################################################
 
@@ -40,7 +40,7 @@
 base_dir <- "."
 setwd(base_dir)
 
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 

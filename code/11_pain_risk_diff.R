@@ -33,8 +33,8 @@
 #   groups' 1st-99th percentile ranges).
 #
 # Output: models/pain_risk_diff.Rdata
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R (cont_treatment_effect_diff)
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R (cont_treatment_effect_diff)
 #
 ################################################################################
 
@@ -49,7 +49,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("0b_setup.R")
+source("00b_setup.R")
 
 set.seed(02138)
 

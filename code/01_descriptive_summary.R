@@ -20,8 +20,8 @@
 #      using summarise_binary_outcomes(), plus single-number prevalence
 #      for Tsimane back pain and Tarahumara LBP
 #
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R
 #
 ################################################################################
 
@@ -34,7 +34,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 

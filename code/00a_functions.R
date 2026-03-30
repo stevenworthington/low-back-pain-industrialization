@@ -4,7 +4,7 @@
 # Low back pain causal analysis pipeline
 #
 # This file defines all shared helper and utility functions used across the
-# LBP analysis scripts. It is sourced by 0b_setup.R at the start of every
+# LBP analysis scripts. It is sourced by 00b_setup.R at the start of every
 # analysis session.
 #
 # Functions are organized into the following categories:

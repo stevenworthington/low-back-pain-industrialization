@@ -26,8 +26,8 @@
 #   - CRP uses transform_out="log" for log-scale modeling
 #   - Effective sample sizes (ESS) are noted inline for each model
 #
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R
 #   - cont_treatment_effect(): single-group continuous exposure effect
 #
 # Output: models/risk_industrialization_orangasli.Rdata
@@ -43,7 +43,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 

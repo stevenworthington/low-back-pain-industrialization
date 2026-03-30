@@ -7,7 +7,7 @@
 # of every analysis script and performs the following steps:
 #
 #   1. Load all required R packages via pacman::p_load
-#   2. Source shared helper functions from 0a_functions.R
+#   2. Source shared helper functions from 00a_functions.R
 #   3. Create output directories (figures/, models/) if they don't exist
 #   4. Load and prepare datasets (from pre-cleaned CSVs in data/):
 #      a. Turkana pain data  (clean names, convert strings to factors,
@@ -20,7 +20,7 @@
 #
 # Dependencies:
 #   pacman, tidyverse, janitor, and all packages listed in p_load() below.
-#   Helper functions: 0a_functions.R
+#   Helper functions: 00a_functions.R
 #
 # Data files (in data/ directory):
 #   Turkana_pain.csv
@@ -51,8 +51,8 @@ options(scipen=20)
 # ==============================================================================
 
 # Source shared function library (themes, descriptive helpers, causal inference
-# functions, multi-group prevalence estimation); see 0a_functions.R for details
-source("code/0a_functions.R")
+# functions, multi-group prevalence estimation); see 00a_functions.R for details
+source("code/00a_functions.R")
 
 
 # ==============================================================================

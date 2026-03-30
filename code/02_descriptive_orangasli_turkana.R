@@ -31,8 +31,8 @@
 #   - Between-group PRs use the delta method on the log scale from
 #     independent pooled estimates.
 #
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R
 #
 ################################################################################
 
@@ -45,7 +45,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # Source setup file (loads packages, data, custom functions, themes)
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 
@@ -74,7 +74,7 @@ lab_map <- setNames(levs, outcomes)
 
 
 # --- common age support across groups ---
-# uses common_age_support() from 0a_functions.R to compute the overlapping
+# uses common_age_support() from 00a_functions.R to compute the overlapping
 # age range. The upper bound is data-driven (99th percentile of pooled ages,
 # capped at the smallest group maximum). age_ref contains observed ages for
 # standardization; age_grid is a regular 1-year sequence for curve plotting.
@@ -130,7 +130,7 @@ dat |>
 # 2. AGE-ADJUSTED PREVALENCE BY PAIN LOCATION, SEX, AND GROUP
 # ==============================================================================
 
-# uses fit_predict_all() from 0a_functions.R, which wraps fit_predict_one()
+# uses fit_predict_all() from 00a_functions.R, which wraps fit_predict_one()
 # across all outcomes. For each outcome × group, it fits a sex-specific GAM
 # and computes several estimands via marginal standardization over the common
 # age support, with marginaleffects for ratio and difference inference.

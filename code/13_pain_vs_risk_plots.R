@@ -37,7 +37,7 @@
 #   8. Combine between-group difference panels into 3x2 grid figure
 #
 # Dependencies:
-#   0b_setup.R (packages, helpers, data); saved model objects in models/
+#   00b_setup.R (packages, helpers, data); saved model objects in models/
 #   Packages: tidyverse, patchwork, cowplot, vctrs, ggplot2
 #   Helper functions: plot_AERF_AMEF(), get_legend() (cowplot)
 #
@@ -56,7 +56,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 

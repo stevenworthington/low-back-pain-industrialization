@@ -28,8 +28,8 @@
 #   to achieve approximate independence of exposure and confounders.
 #
 # Output: models/pain_risk_turkana.Rdata
-# Dependencies: loaded in 0b_setup.R
-# Helper functions: defined in 0a_functions.R (cont_treatment_effect)
+# Dependencies: loaded in 00b_setup.R
+# Helper functions: defined in 00a_functions.R (cont_treatment_effect)
 #
 ################################################################################
 
@@ -42,7 +42,7 @@ base_dir <- "."
 setwd(base_dir)
 
 # source setup file
-source("code/0b_setup.R")
+source("code/00b_setup.R")
 
 set.seed(02138)
 
