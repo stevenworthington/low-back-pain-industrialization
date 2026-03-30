@@ -1,0 +1,28 @@
+{
+  "title": "Analysis code for: Industrialization and low back pain among two traditionally small-scale subsistence societies",
+  "description": "R code for the causal analysis of low back pain prevalence and risk factors across four populations (Turkana, Orang Asli, Tsimane, Raramuri/Tarahumara). Includes descriptive prevalence estimation using GAMs, continuous exposure effect estimation using entropy balancing weights, and visualization scripts.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Worthington, Steven",
+      "orcid": "0000-0001-9550-5797",
+      "affiliation": "Harvard University"
+    }
+  ],
+  "keywords": [
+    "low back pain",
+    "musculoskeletal pain",
+    "industrialization",
+    "causal inference",
+    "generalized additive models",
+    "entropy balancing"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "[ARTICLE DOI]",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
+}
