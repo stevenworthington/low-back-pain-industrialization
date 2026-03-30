@@ -6,7 +6,7 @@
 #
 # This script computes descriptive prevalence statistics for back pain
 # among the Tsimane, using the same shared functions as the multi-group
-# analysis (2_descriptive_orangasli_turkana.R). Cluster-robust standard errors
+# analysis (02_descriptive_orangasli_turkana.R). Cluster-robust standard errors
 # (by participant id) are used throughout because of repeated observations.
 #
 # The script is organized into the following sections:

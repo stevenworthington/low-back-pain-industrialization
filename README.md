@@ -27,15 +27,15 @@ Scripts are numbered in order of execution:
 |--------|-------------|
 | `0a_functions.R` | Shared function library (themes, descriptive helpers, causal inference, prevalence estimation) |
 | `0b_setup.R` | Environment setup: loads packages, sources functions, loads and prepares datasets |
-| `1_descriptive_summary.R` | Basic descriptive statistics across all four populations |
-| `2_descriptive_orangasli_turkana.R` | GAM-based age-adjusted prevalence for Turkana and Orang Asli |
-| `3_descriptive_tsimane.R` | GAM-based age-adjusted prevalence for Tsimane |
-| `4_descriptive_tarahumara.R` | GAM-based age-adjusted prevalence for Tarahumara |
-| `5_pain_industrialization.R` | Causal effect of industrialization on LBP (Turkana, Orang Asli, difference) |
-| `6_risk_industrialization_turkana.R` | Causal effect of industrialization on risk factors (Turkana) |
-| `7_risk_industrialization_orang_asli.R` | Causal effect of industrialization on risk factors (Orang Asli) |
-| `8_risk_industrialization_diff.R` | Between-group difference in industrialization effects on risk factors |
-| `9_pain_risk_turkana.R` | Causal effect of risk factors on LBP (Turkana) |
+| `01_descriptive_summary.R` | Basic descriptive statistics across all four populations |
+| `02_descriptive_orangasli_turkana.R` | GAM-based age-adjusted prevalence for Turkana and Orang Asli |
+| `03_descriptive_tsimane.R` | GAM-based age-adjusted prevalence for Tsimane |
+| `04_descriptive_tarahumara.R` | GAM-based age-adjusted prevalence for Tarahumara |
+| `05_pain_industrialization.R` | Causal effect of industrialization on LBP (Turkana, Orang Asli, difference) |
+| `06_risk_industrialization_turkana.R` | Causal effect of industrialization on risk factors (Turkana) |
+| `07_risk_industrialization_orang_asli.R` | Causal effect of industrialization on risk factors (Orang Asli) |
+| `08_risk_industrialization_diff.R` | Between-group difference in industrialization effects on risk factors |
+| `09_pain_risk_turkana.R` | Causal effect of risk factors on LBP (Turkana) |
 | `10_pain_risk_orang_asli.R` | Causal effect of risk factors on LBP (Orang Asli) |
 | `11_pain_risk_diff.R` | Between-group difference in risk factor effects on LBP |
 | `12_risk_vs_industrialization.plots.R` | Visualization: risk factors vs industrialization |

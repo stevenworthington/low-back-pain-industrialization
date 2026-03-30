@@ -7,7 +7,7 @@
 # binary low back pain (LBP) status among the Orang Asli, using generalized
 # propensity score weighting via cont_treatment_effect().
 #
-# Same analysis structure as 9_pain_risk_turkana.R, with key differences:
+# Same analysis structure as 09_pain_risk_turkana.R, with key differences:
 #   - Adiposity models add pregnant_ny_01 and mvpa_average_daily_min as
 #     extra covariates beyond the Turkana specification
 #   - CRP model adds pregnant_ny_01 and mvpa_average_daily_min
