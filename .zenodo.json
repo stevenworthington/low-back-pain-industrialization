@@ -18,11 +18,5 @@
     "generalized additive models",
     "entropy balancing"
   ],
-  "related_identifiers": [
-    {
-      "identifier": "[ARTICLE DOI]",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-article"
-    }
-  ]
+  "related_identifiers": []
 }
